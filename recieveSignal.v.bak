@@ -1,0 +1,43 @@
+module recieveSignal(clk, rst, sensout, distance);
+
+input clk,rst,sensout;
+output [8:0] distance;
+
+parameter S0=2'b00,S1=2'b01,S2=2'b10,S3=2'b11;
+parameter k=2700; //constant we divide the value we get with k to get actual distance
+parameter maxDistance=500, mindistance = 10;
+reg [1:0] state;
+reg [31:0] sensoutC, distanceReg;
+
+always @ (posedge clk, posedge rst) begin
+if(rst) begin state<=S0; distanceReg<=0; end
+else case(state)
+S0: begin
+sensoutC<=0;
+state <=S1;
+end
+
+S1: begin
+if(sensout==0) //if an object is seen, we switch to S2
+state<=S1;
+else state<=S2;
+end
+
+S2: begin
+sensoutC<=sensoutC+1;
+if(sensout==1)
+state<=S2;
+else
+state<=S3;
+end
+
+S3: begin
+state <=S0;
+distanceReg<=sensoutC;
+end
+
+endcase
+end
+assign distance= distanceReg/k;
+
+endmodule

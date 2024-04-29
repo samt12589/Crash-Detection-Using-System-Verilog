@@ -1,0 +1,181 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "trig",
+					"strict" : false
+				},
+				{
+					"name" : "distf[0]",
+					"strict" : false
+				},
+				{
+					"name" : "distf[1]",
+					"strict" : false
+				},
+				{
+					"name" : "distf[2]",
+					"strict" : false
+				},
+				{
+					"name" : "distf[3]",
+					"strict" : false
+				},
+				{
+					"name" : "distf[4]",
+					"strict" : false
+				},
+				{
+					"name" : "distf[5]",
+					"strict" : false
+				},
+				{
+					"name" : "distf[6]",
+					"strict" : false
+				},
+				{
+					"name" : "distm[0]",
+					"strict" : false
+				},
+				{
+					"name" : "distm[1]",
+					"strict" : false
+				},
+				{
+					"name" : "distm[2]",
+					"strict" : false
+				},
+				{
+					"name" : "distm[3]",
+					"strict" : false
+				},
+				{
+					"name" : "distm[4]",
+					"strict" : false
+				},
+				{
+					"name" : "distm[5]",
+					"strict" : false
+				},
+				{
+					"name" : "distm[6]",
+					"strict" : false
+				},
+				{
+					"name" : "distl[0]",
+					"strict" : false
+				},
+				{
+					"name" : "distl[1]",
+					"strict" : false
+				},
+				{
+					"name" : "distl[2]",
+					"strict" : false
+				},
+				{
+					"name" : "distl[3]",
+					"strict" : false
+				},
+				{
+					"name" : "distl[4]",
+					"strict" : false
+				},
+				{
+					"name" : "distl[5]",
+					"strict" : false
+				},
+				{
+					"name" : "distl[6]",
+					"strict" : false
+				},
+				{
+					"name" : "disbar[1]",
+					"strict" : false
+				},
+				{
+					"name" : "disbar[2]",
+					"strict" : false
+				},
+				{
+					"name" : "disbar[3]",
+					"strict" : false
+				},
+				{
+					"name" : "disbar[4]",
+					"strict" : false
+				},
+				{
+					"name" : "disbar[5]",
+					"strict" : false
+				},
+				{
+					"name" : "disbar[6]",
+					"strict" : false
+				},
+				{
+					"name" : "disbar[7]",
+					"strict" : false
+				},
+				{
+					"name" : "disbar[8]",
+					"strict" : false
+				},
+				{
+					"name" : "hor_sync",
+					"strict" : false
+				},
+				{
+					"name" : "ver_sync",
+					"strict" : false
+				},
+				{
+					"name" : "red[0]",
+					"strict" : false
+				},
+				{
+					"name" : "red[1]",
+					"strict" : false
+				},
+				{
+					"name" : "red[2]",
+					"strict" : false
+				},
+				{
+					"name" : "red[3]",
+					"strict" : false
+				},
+				{
+					"name" : "green[0]",
+					"strict" : false
+				},
+				{
+					"name" : "green[1]",
+					"strict" : false
+				},
+				{
+					"name" : "green[2]",
+					"strict" : false
+				},
+				{
+					"name" : "green[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "sensout",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
